@@ -9,6 +9,7 @@ import 'package:get_it/get_it.dart';
 import 'package:rxdart/rxdart.dart';
 
 class ServiceLocator {
+  /// Менеджер зависимостей использует либу getIt
   late TaskListBloc bloc;
 
   late AppNavigator appNavigator;
